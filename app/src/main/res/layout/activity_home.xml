@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright"
+    android:padding="50dp"
+    tools:context=".HomeActivity">
+
+    <Button
+        android:id="@+id/btnquiz"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/Logo"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="POP QUIZ"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/btnMathQuiz"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/btnquiz"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="MATH QUIZ"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp" />
+
+    <ImageView
+        android:id="@+id/Logo"
+        android:layout_width="102dp"
+        android:layout_height="104dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/mainMenu"
+        android:layout_width="193dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_toEndOf="@+id/Logo"
+        android:layout_toRightOf="@+id/Logo"
+        android:gravity="center"
+        android:text="MAIN MENU"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="32dp" />
+
+
+</RelativeLayout>
